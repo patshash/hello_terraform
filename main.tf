@@ -5,7 +5,7 @@ terraform {
       version = "3.5.1"
     }
   }
-
+}
 resource "random_pet" "pet1" {}
 
 
