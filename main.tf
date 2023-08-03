@@ -1,4 +1,10 @@
-provider "random" {}
+terraform {
+  required_providers {
+    random = {
+      source = "localterraform.com/hashicorp/random"
+      version = "3.5.1"
+    }
+  }
 
 resource "random_pet" "pet1" {}
 
