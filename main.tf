@@ -1,10 +1,14 @@
 terraform {
   required_providers {
-    private-random = {
-      source = "localterraform.com/patrick/private-random"
+    random = {
+      source = "tfe.pcarey.xyz/patrick/random"
       version = "1.0.0"
     }
   }
+}
+
+provider "random" { 
+  # Configuration options 
 }
 resource "random_pet" "pet1" {}
 
