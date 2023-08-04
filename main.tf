@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    random = {
-      source = "localterraform.com/hashicorp/random"
-      version = "3.5.1"
+    private-random = {
+      source = "tfe.pcarey.xyz/patrick/private-random"
+      version = "1.0.0"
     }
   }
 }
