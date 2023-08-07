@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     random = {
-      source = "tfe.pcarey.xyz/myorg/random"
+      source = "localterraform.com/myorg/random"
       version = "1.0.1"
     }
   }
