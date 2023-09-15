@@ -1,4 +1,6 @@
-provider "random" {}
+provider "random" {
+      version = "3.5.0"
+}
 
 resource "random_pet" "pet1" {}
 
